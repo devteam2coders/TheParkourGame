@@ -25,6 +25,7 @@
     </sprites>
     <sprite>sprites\spr_retry</sprite>
     <sprite>sprites\spr_game_over</sprite>
+    <sprite>sprites\spr_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
