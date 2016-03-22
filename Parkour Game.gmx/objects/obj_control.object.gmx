@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>//background_index[0] = choose(bkg_city_1, bkg_city_2);
 //background_hspeed[0] = -10;
+
+//Random comment
 </string>
           </argument>
         </arguments>
