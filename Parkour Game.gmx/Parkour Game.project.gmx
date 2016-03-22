@@ -41,6 +41,7 @@
   <fonts name="fonts">
     <font>fonts\fnt_score</font>
     <font>fonts\fnt_level_select</font>
+    <font>fonts\fnt_highscore</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_control_up</object>

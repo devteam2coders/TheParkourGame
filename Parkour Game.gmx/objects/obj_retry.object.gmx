@@ -30,6 +30,10 @@
         room_goto(rm_infinite);
     }
 }
+
+//Make sure that the button is on the middle of the screen
+display_set_gui_maximise();
+x = view_wview[0]/2;
 </string>
           </argument>
         </arguments>
