@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>size = 1;
+            <string>///Initalize variables
+size = 1;
 ySpeed = 0;
 jumpSpeed = 5;
 grav = 0.6;
@@ -93,6 +94,7 @@ if (y - sprite_height &gt; room_height) {
 }
 
 view_yview[0] += ((y - room_height / 2) - view_yview[0]) * 0.1;
+
 </string>
           </argument>
         </arguments>
