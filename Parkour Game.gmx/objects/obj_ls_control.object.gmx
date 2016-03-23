@@ -28,13 +28,13 @@
             <string>var i;
 for(i = 0; i &lt; 5; i += 1) {
     var ls;
-    ls = instance_create(i * 150 + (room_width / 2) - ((5 * 150) / 2), 192, obj_ls_button);
+    ls = instance_create((room_width/6) + ((room_width/6)*(i)), 192, obj_ls_button);
     ls.number = i + 1;
 }
 
 for(i = 0; i &lt; 5; i += 1) {
     var ls;
-    ls = instance_create(i * 150 + (room_width / 2) - ((5 * 150) / 2), 192 * 2, obj_ls_button);
+    ls = instance_create((room_width/6) + ((room_width/6)*(i)), 192*2, obj_ls_button);
     ls.number = i + 6;
 }
 </string>
