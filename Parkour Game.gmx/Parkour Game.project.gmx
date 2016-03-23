@@ -63,6 +63,7 @@
       </objects>
     </objects>
     <object>objects\obj_game_over</object>
+    <object>objects\obj_test_keys</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
