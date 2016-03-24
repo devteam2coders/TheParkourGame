@@ -33,6 +33,7 @@ grav = 0.6;
 acc = 0.2;
 jump = 1;
 maxJump = jumpSpeed * 3;
+dami="awesome"
 </string>
           </argument>
         </arguments>
