@@ -96,6 +96,11 @@
           <argument>
             <kind>1</kind>
             <string>draw_self();
+
+//Flags
+if number &lt; 6 {draw_sprite(spr_flag,0,x,y);}
+if number &gt;= 6 {draw_sprite(spr_flag,number-5,x,y);}
+
 draw_set_font(fnt_level_select);
 draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
