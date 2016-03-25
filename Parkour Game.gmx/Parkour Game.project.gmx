@@ -39,6 +39,7 @@
     <script>scripts\scr_collision.gml</script>
     <script>scripts\scr_infinite.gml</script>
     <script>scripts\scr_death.gml</script>
+    <script>scripts\scr_html_scalling.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_score</font>
@@ -66,6 +67,7 @@
     </objects>
     <object>objects\obj_game_over</object>
     <object>objects\obj_test_keys</object>
+    <object>objects\obj_html_scalling</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
