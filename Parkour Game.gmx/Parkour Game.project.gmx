@@ -33,6 +33,8 @@
     <background>background\bck_clouds</background>
     <background>background\clouds</background>
     <background>background\bkg_city_2</background>
+    <background>background\bck_city1</background>
+    <background>background\bck_city2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
