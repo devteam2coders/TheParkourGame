@@ -49,6 +49,9 @@ else
 ini_open("highscore.ini");
 highscore = ini_read_real("infinite","highscore",0);
 ini_close();
+
+//Reset Game Speed
+global.xSpeed = global.xSpeedD;
 </string>
           </argument>
         </arguments>

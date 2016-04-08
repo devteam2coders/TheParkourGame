@@ -54,7 +54,7 @@
             <string>background_hspeed[0] = -0.5*global.xSpeed;
 background_hspeed[2] = -0.5*global.xSpeed;
 
-global.xSpeedD += 0.0001;
+global.xSpeed += 0.005;
 </string>
           </argument>
         </arguments>

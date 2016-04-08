@@ -6,9 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_control_left</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_control_right</sprite>
     <sprite>sprites\spr_control_up</sprite>
     <sprite>sprites\spr_control_down</sprite>
     <sprite>sprites\spr_wall</sprite>
@@ -23,9 +21,10 @@
         <sprite>sprites\spr_back</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_retry</sprite>
+    <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_flag</sprite>
+    <sprite>sprites\spr_jump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -35,6 +34,7 @@
     <background>background\bkg_city_2</background>
     <background>background\bck_city1</background>
     <background>background\bck_city2</background>
+    <background>background\bkg_gameover</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -61,6 +61,7 @@
       <object>objects\obj_menu_exit</object>
       <object>objects\obj_menu_infinite</object>
       <object>objects\obj_retry</object>
+      <object>objects\obj_menu</object>
       <objects name="Level Select">
         <object>objects\obj_ls_button</object>
         <object>objects\obj_ls_control</object>

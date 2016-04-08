@@ -66,7 +66,7 @@ if (ySpeed &lt; 10) {
 }
 
 if (global.down) {
-    image_yscale = 0.5;
+    image_yscale = 0.3;
 } else {
     image_yscale = 1;
     //if (grounded &amp;&amp; global.up) {
@@ -95,6 +95,16 @@ if (y - sprite_height &gt; room_height) {
 }
 
 view_yview[0] += ((y - room_height / 2) - view_yview[0]) * 0.1;
+
+//Animate
+if (!grounded) {
+    image_speed = 0.5;
+    sprite_index = spr_jump;
+    if (sprite_index == spr_jump &amp;&amp; image_index = 1) image_speed = 0;
+} else {
+    image_speed = 0.5;
+    sprite_index = spr_player;
+}
 
 </string>
           </argument>
