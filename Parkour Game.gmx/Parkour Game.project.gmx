@@ -25,6 +25,7 @@
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_flag</sprite>
     <sprite>sprites\spr_jump</sprite>
+    <sprite>sprites\spr_ground</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -71,6 +72,7 @@
     <object>objects\obj_game_over</object>
     <object>objects\obj_test_keys</object>
     <object>objects\obj_html_scalling</object>
+    <object>objects\obj_ground</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
