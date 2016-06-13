@@ -74,6 +74,7 @@
     <object>objects\obj_test_keys</object>
     <object>objects\obj_html_scalling</object>
     <object>objects\obj_ground</object>
+    <object>objects\obj_controlintro</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
