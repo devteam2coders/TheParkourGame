@@ -36,6 +36,7 @@
     <background>background\bck_city1</background>
     <background>background\bck_city2</background>
     <background>background\bkg_gameover</background>
+    <background>background\bkg_intro</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -75,6 +76,7 @@
     <object>objects\obj_ground</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_init</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_infinite</room>
